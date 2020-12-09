@@ -25,6 +25,7 @@ conda install --yes -p ${targetDIR} -c conda-forge \
         "r-ragg" \
         "r-ggiraph" \
         "r-pkgdown" \
+        "r-tidyverse" \
         "r-vdiffr" > stdout.conda-install 2> stderr.conda-install
 
 echo finishtime=`date`
