@@ -13,6 +13,7 @@ conda install --yes -p ${targetDIR} -c conda-forge \
         "r-ggiraph" \
         "r-ggpubr" \
         "r-gifski" \
+        "r-lwgeom" \
         "r-pdftools" \
         "r-pkgdown" \
         "r-R2jags" \
