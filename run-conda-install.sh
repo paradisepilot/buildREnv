@@ -26,7 +26,7 @@ conda install --yes -p ${targetDIR} -c conda-forge \
         "r-magick" \
         "r-rjson" \
         "r-RMySQL" \
-        "r-rstan" \
+#       "r-rstan" \
         "r-systemfonts" \
         "r-textshaping" \
         "r-tidyverse" \
