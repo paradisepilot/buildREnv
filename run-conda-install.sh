@@ -33,6 +33,6 @@ conda install --yes -p ${targetDIR} -c conda-forge \
         "r-tiff" \
         "r-vdiffr" > stdout.conda-install 2> stderr.conda-install
 
-conda update --yes -name base conda
+# conda update --yes -name base conda
 echo finishtime=`date`
 
