@@ -9,6 +9,7 @@ conda install --yes -p ${targetDIR} -c conda-forge \
         "r-bayesplot" \
         "r-Cairo" \
         "r-EnvStats" \
+        "r-flexdashboard" \
         "r-gdata" \
         "r-gdtools" \
         "r-ggiraph" \
