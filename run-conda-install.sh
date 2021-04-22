@@ -4,6 +4,7 @@ echo starttime=`date`
 targetDIR=`pwd`
 echo targetDIR=${targetDIR}
 
+conda update --yes -name base conda
 conda create  --yes -p ${targetDIR}
 conda install --yes -p ${targetDIR} -c conda-forge \
         "r-Cairo" \
