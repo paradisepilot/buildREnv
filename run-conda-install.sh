@@ -7,8 +7,6 @@ echo targetDIR=${targetDIR}
 conda create  --yes -p ${targetDIR}
 conda install --yes -p ${targetDIR} -c conda-forge \
         "mysql" \ 
-        "mysql-server" \
-        "mysql-client" \
         "r-bayesplot" \
         "r-Cairo" \
         "r-EnvStats" \
