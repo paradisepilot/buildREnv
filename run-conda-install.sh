@@ -40,7 +40,7 @@ conda install --yes -p ${targetDIR} -c conda-forge \
         "r-sp" \
         "r-systemfonts" \
         "r-terra" \ 
-        "r-textshaping" \
+      # "r-textshaping" \
         "r-tidyverse" \
         "r-tiff" \
         "r-vdiffr" > stdout.conda-install 2> stderr.conda-install
